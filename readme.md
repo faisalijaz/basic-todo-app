@@ -35,6 +35,15 @@ In order to run migrations
 php artisan migrate
 ```
 
+In order to create admin user run
+`Email: testadmin@gmail.com`
+`Password: 12345678`
+
+```
+php artisan db:seed
+```
+
+
 create virtual host or run app by
 ```
 php artisan serve
